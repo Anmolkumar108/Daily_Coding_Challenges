@@ -38,8 +38,7 @@ for(i=0; i<3; i++){
                 ThirdMatrix[i][j] += firstMatrix[i][k] * SecondMatrix[k][j];
             }
         }
-    }
-    printf("\n--- Third Matrix (Product) ---\n");
+    } printf("\n--- Third Matrix (Product) ---\n");
     for(i=0; i<3; i++){
         for(j=0; j<3; j++){
             printf("%d \t", ThirdMatrix[i][j]);
